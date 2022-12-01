@@ -1,0 +1,148 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    content: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+section{
+    border-bottom: 1mm solid #DA0090;
+    margin-bottom: 2mm;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    border-top: 1mm solid #45214A;
+}
+header {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: flex-start;
+   margin-left: 25%;
+}
+.rightheader{
+    padding-top: 3.5rem;
+    padding-bottom: 0rem;
+    line-height: 0.5rem;
+   
+}
+h1{
+    color: #FF4858;
+    padding-top: 1rem;
+    padding-bottom: 0rem;  
+    font-size: 2.5rem;
+}
+.leftheader{
+    margin-right: 1rem;
+}
+nav{
+    border-top: 1px solid #FF4858 ;
+    border-bottom: 1px solid #520120;
+    margin-left: 25%;
+    margin-bottom: 1rem
+    
+   
+}
+nav ul{
+    list-style-type: none;
+    margin: 0rem;
+    padding: 0rem;
+}
+nav,li{
+    
+    display: inline-block;
+    padding: 0rem 1rem 0rem 1rem;
+}
+nav a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: black;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+ul a:visited{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight:lighter;
+    text-decoration: underline;
+    color: purple;
+}
+ul a:hover{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #400036;
+    text-decoration: none;
+
+}
+article{
+    width: 80%;
+    margin-bottom: 5rem;
+    border-bottom: #400036;
+    
+    
+}
+article img{
+    border-radius: 2rem;
+    float: left;
+    margin-right: 1rem;
+    margin-left: 4rem;
+}
+article:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+article a:visited{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        font-weight:lighter;
+        text-decoration: underline;
+        color: purple
+}
+article a:hover{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #400036;
+    text-decoration: none;
+
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;   
+   }
+footer li{
+       display: inline-block;
+    }
+.wrapper{
+        width: 80%;
+        margin: 0rem auto;
+}
+      
+   
+   
