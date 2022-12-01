@@ -1,0 +1,119 @@
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #41BFB3;
+    max-width: 50%;
+    text-align:left
+    font-stretch: wider;
+    margin-top: 0rem;
+}
+p{
+    margin-top: 0rem;
+    margin: 0.5rem 0:
+    margin-bottom: 0.5rem;
+}
+h2{
+    font-family:'Roboto', sans-serif;
+    font-weight:bold;
+    font-style:italic;
+    margin: 0rem;
+}
+.paragraph1{
+    margin-bottom: 0rem;
+ }
+ ol{
+    margin: 0rem 0rem;
+    font-style: italic;
+    font-family: fantasy;
+ }
+ul{
+    margin: 0rem 0rem;
+    
+}
+.paragraph2{
+   margin-bottom: 0rem;
+}
+a:link{
+    font-size: 18px;
+    color: #45214A;
+    font-weight: bolder;
+    text-decoration: none;
+}
+a:visited{
+    font-size: 16px;
+    color: #F2668B;
+    font-weight:lighter;
+    text-decoration:solid;
+    text-decoration-line: line-through;
+    text-decoration-color: #F2668B;
+}
+a:hover{
+    font-size: 19px;
+    font-family: unset;
+    font-style: italic;
+    color: #400036;
+    font-weight: bolder;
+    text-decoration: line-through;
+    text-decoration-color: #400036;
+    text-decoration-style: double;
+}
+.image1{
+    border-radius: 5rem;
+    height: 300px;
+    width: 500px;
+}
+.image2{
+    border-radius: 5rem;
+    height: 650px;
+    width: 500px;
+}
+article{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-stretch: wider;
+
+}
+blockquote{
+    border: 1mm solid #21445B;
+    border-radius: 1mm;
+    border-left: 2mm solid;
+    text-align:center;
+    font-style: italic;
+    font-family: 'Harlow solid';
+    font-size: 19px;
+}
+cite{
+    font-family:unset;
+    font-weight:bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 0rem;
+    border-radius: 5rem;
+    background-color:#9AEBA3;
+}
+nav{
+
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+    border: 1mm solid #012030;
+    background-color: grey;
+    font-size: larger;
+    text-transform: capitalize;
+    display: flex;
+    flex-flow: row wrap;
+    flex-basis: 10%;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+   
+}

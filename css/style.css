@@ -1,0 +1,93 @@
+/* My first CSS code is a comment */
+
+body{
+    font-family:Arial, Helvetica, sans-serif; 
+    background-color:#7AB8BF;
+    background-size: cover;
+
+} 
+img{
+    border:2mm solid black;
+}
+h1{
+    text-transform: uppercase;
+    font-weight:lighter;
+    color: black;
+    text-align: center;
+    background-color:white;
+}
+blockquote{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    text-align: center;
+}
+cite{
+    font-size: 2rem;
+   font
+}
+.bigbold{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.my-fontfamily{
+    font-family: monospace;
+    font-size: 1.3rem;
+    line-height: 1.2rem;
+}
+.my-fontstyle{
+    font-style: italic;
+    font-weight: 100;
+    color: #024959;
+}
+ul a:link{
+    color: #9C3E00;
+    font-weight: bold;
+    font-style: italic;
+    font-family: fantasy;
+    text-decoration: none;
+}
+a:visited{
+    color: #012E40;
+    font-weight: lighter;
+    font-family: inherit;
+    text-decoration:dashed;
+    text-decoration-color: #012E40;
+    font-size: 2.5rem;
+}
+a:hover {
+    color: #D92525;
+    text-decoration:underline;
+    font-weight: bold;
+    background-color: white;
+}
+a.harvard:link {
+    color:#038C3E;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-style: italic;
+}
+#myid{
+    color: #0CF25D;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+div{
+    border: 5px blue solid;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.box1{
+    border-top-color: #024959;
+    width: 75%;
+   
+}
+p {
+    border: 1mm solid green;
+    margin: 0;
+}
+.box2 p{
+    margin-top: 0;
+}
